@@ -1,7 +1,7 @@
 # HelloModule
 My first module for Linux Kernel. This module print "Hello" and my university info.
 
-The source file is **hello.c**
+The source file is **hello.c**.
 Just run make to build the **Hello.ko** file:
 	
 	sudo make
