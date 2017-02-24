@@ -1,2 +1,2 @@
 # HelloModule
-My first module for Linux Kernel. This module print "Hello" and my university info
+My first module for Linux Kernel. This module print "Hello" and my university info.
