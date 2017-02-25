@@ -12,7 +12,6 @@ static int __init hello_init(void)
 {
 	pr_alert("Module loaded\n");
 	pr_alert("My kafedra %d and my faculty %d\n", kaf, faculty);
-	pr_alert("Module loaded\n My kafedra %d and my faculty %d\n", kaf, faculty);
 	return 0;
 }
 
