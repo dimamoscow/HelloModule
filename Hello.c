@@ -10,7 +10,12 @@ module_param(faculty, int, 0);
 
 static int __init hello_init(void)
 {
+<<<<<<< HEAD
+	pr_alert("Module loaded\n");
+	pr_alert("My kafedra %d and my faculty %d\n", kaf, faculty);
+=======
 	pr_alert("Module loaded\n My kafedra %d and my faculty %d\n", kaf, faculty);
+>>>>>>> 9fac9a92778203405f0ba1e3ac46573bbc73232f
 	return 0;
 }
 
@@ -22,7 +27,7 @@ static void __exit hello_exit(void)
 module_init(hello_init);
 module_exit(hello_exit);
 
-MODULE_LICENSE("GPL"); 
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Dmitriy Motsik <dimaaansc@gmail.com>");
 
 
