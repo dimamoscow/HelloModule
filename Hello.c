@@ -17,7 +17,7 @@ static int __init hello_init(void)
 
 static void __exit hello_exit(void)
 {
-	pr_alert("Module remove");
+	pr_alert("Module remove!");
 }
 
 module_init(hello_init);
